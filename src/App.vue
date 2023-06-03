@@ -1,9 +1,16 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <div class="bg-gray-100">
+      <div class="container mx-auto">
+        <div class="flex flex-col justify-center items-center h-screen">
+          <div class="text-4xl text-gray-700">Hello Vue2 + tailwindcss</div>
+          <nav>
+            <router-link to="/">Home</router-link> |
+            <router-link to="/about">About</router-link>
+          </nav>
+        </div>
+      </div>
+    </div>
     <router-view/>
   </div>
 </template>
